@@ -66,6 +66,9 @@ This project aims to predict the median value of owner-occupied homes (MEDV) in 
 XGBoost library is used to create and train a regression model.
 Model parameters such as the objective function (reg:squarederror) and evaluation metric (rmse) are defined.
 
+## prediction
+![Screenshot 2024-07-13 172748](https://github.com/user-attachments/assets/1bc9c11e-c213-4e6d-bcff-b4c4af3cedb3)
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
