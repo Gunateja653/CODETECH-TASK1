@@ -56,6 +56,11 @@ This project aims to predict the median value of owner-occupied homes (MEDV) in 
 2. Run the provided code in a Google Colab environment or a Jupyter Notebook.
 3. Follow the prompts to input values for the selected features and obtain the predicted 'MEDV'.
 
+## Model Training:
+
+XGBoost library is used to create and train a regression model.
+Model parameters such as the objective function (reg:squarederror) and evaluation metric (rmse) are defined.
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
