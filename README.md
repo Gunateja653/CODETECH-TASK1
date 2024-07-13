@@ -1,9 +1,11 @@
 # Boston-Housing-mL-model
 The Boston Housing Dataset
-NAME:Guna Teja sarvan Patnaik
-ID:CT4ML4739
-DOMAIN:MACHINE LEARNING
-MENTOR:Muzammil Ahmed
+* **NAME:** Guna Teja sarvan Patnaik
+* **COMPANY:** CODETECH IT SOLUTIONS
+* **ID:** CT4ML4739
+* **DOMAIN:** MACHINE LEARNING
+* **DURATION:** 25 JULY 2024
+* **MENTOR:** Muzammil Ahmed
 
 The Boston Housing Dataset is a derived from information collected by the U.S. Census Service concerning housing in the area of Boston MA. The following describes the dataset columns:
 
