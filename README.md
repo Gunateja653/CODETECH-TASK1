@@ -17,3 +17,45 @@ PTRATIO - pupil-teacher ratio by town,
 B - 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town,
 LSTAT - % lower status of the population,
 MEDV - Median value of owner-occupied homes in $1000's.
+
+# Boston Housing Price Prediction
+
+This project aims to predict the median value of owner-occupied homes (MEDV) in the Boston area using various machine learning algorithms. The dataset used is the Boston Housing Dataset, a popular dataset for regression analysis.
+
+## Steps
+
+1. **Data Loading and Exploration:**
+   - Load the Boston Housing Dataset from '/content/boston.csv'.
+   - Perform exploratory data analysis (EDA) to understand the dataset's characteristics, including descriptive statistics and visualizations.
+
+2. **Outlier Detection and Handling:**
+   - Identify and handle outliers in the 'MEDV' column to improve model performance.
+
+3. **Feature Selection:**
+   - Utilize mutual information regression to select the most relevant features for predicting 'MEDV'.
+
+4. **Model Selection and Evaluation:**
+   - Experiment with different regression models, including Linear Regression, Random Forest Regressor, AdaBoost Regressor, Support Vector Regression (SVR), Decision Tree Regressor, and XGBoost Regressor.
+   - Evaluate model performance using metrics such as Root Mean Squared Error (RMSE) and R-squared (R2) score.
+
+5. **Prediction System:**
+   - Develop a prediction system using the best-performing model (XGBoost Regressor in this case) to predict 'MEDV' based on user-provided input values for the selected features.
+
+## Dependencies
+
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
+- xgboost
+
+## Usage
+
+1. Install the required dependencies.
+2. Run the provided code in a Google Colab environment or a Jupyter Notebook.
+3. Follow the prompts to input values for the selected features and obtain the predicted 'MEDV'.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
