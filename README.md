@@ -3,7 +3,7 @@ The Boston Housing Dataset
 
 The Boston Housing Dataset is a derived from information collected by the U.S. Census Service concerning housing in the area of Boston MA. The following describes the dataset columns:
 
-CRIM - per capita crime rate by town
+*CRIM - per capita crime rate by town
 ZN - proportion of residential land zoned for lots over 25,000 sq.ft.,
 INDUS - proportion of non-retail business acres per town,
 CHAS - Charles River dummy variable (1 if tract bounds river; 0 otherwise),
